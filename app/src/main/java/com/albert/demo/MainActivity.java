@@ -13,14 +13,6 @@ import com.albert.demo.util.NativeMethod;
 import com.albert.demo.util.NativeMethodSum;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-//    //静态代码块 引入资源
-//    static {
-//        System.loadLibrary("native-lib");
-//    }
-//
-//    //声明一个本地方法，java -> C
-//    public native String helloFormC();
-
     private Button btn, btn2, btn3;
     private Context context;
     private int nums[] = {2,3,4,5,6};
